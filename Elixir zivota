@@ -1,5 +1,4 @@
-#Tento elixir zivota doplni hracovo zdravi.
-#Elixir neleci vzdy stejne. Hodnota je nahodna a na kazde obtiznosti hry leci jinak.
+#Tento elixir zivota doplni hracovo zdravi. Elixir neleci vzdy stejne. Hodnota je nahodna a na kazde obtiznosti hry leci jinak.
 # 1. uroven obtiznosti je nejlehci, 5. je vsak nejtezsi
 
 import random
@@ -12,5 +11,5 @@ difficulty = 2
 health_potion = int(random.randint(25,50)/difficulty)
 health = health + health_potion
 
-#Prave jsme zvysili zdravi hrace o nekolik bodu.
 print(health)
+#Hrac je ted vylecen.
