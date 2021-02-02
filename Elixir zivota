@@ -11,5 +11,6 @@ difficulty = 2
 health_potion = int(random.randint(25,50)/difficulty)
 health = health + health_potion
 
+print("Hracovo zdravi je ted:")
 print(health)
 #Hrac je ted vylecen.
