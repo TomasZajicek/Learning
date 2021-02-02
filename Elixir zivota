@@ -1,0 +1,12 @@
+#Tento elixir zivota doplni hracovo zdravi.
+
+
+import random
+
+
+health = 20
+health_potion = random.randint(25,50)
+health = health + health_potion
+
+#Prave jsme zvysili zdravi hrace o 25 az 50 bodu.
+print(health)
