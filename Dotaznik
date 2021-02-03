@@ -1,0 +1,13 @@
+#Tento dotaznik mi poslouzi k tomu, abychom se lepe poznali, fesaci.
+
+#Nyni se zeptam na nekolik otazek
+jmeno = input("Jak se jmenujes?: ")
+vek = input("Kolik je ti let?: ")
+mesto = input("Kde bydlis?: ")
+jidlo = input("Jake mas oblibene jidlo?: ")
+
+string = "Jmenujes se {} a je ti {} let. Bydlis v {} a mas rad/a {}"
+output = string.format(jmeno,vek,mesto,jidlo)
+
+#Diky za tvuj cas, ted o tobe vim tohle
+print(output)
