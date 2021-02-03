@@ -6,6 +6,7 @@ vek = input("Kolik je ti let?: ")
 mesto = input("Kde bydlis?: ")
 jidlo = input("Jake mas oblibene jidlo?: ")
 
+#Trochu to zpracujeme
 string = "Jmenujes se {} a je ti {} let. Bydlis v {} a mas rad/a {}"
 output = string.format(jmeno,vek,mesto,jidlo)
 
