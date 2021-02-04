@@ -1,0 +1,10 @@
+#Tento program zjisti z emailu domenu a uzivatelske jmeno.
+
+
+email = input("Jaka je tva emailova adresa?: ").strip()
+user = email[:email.index("@")]
+domain = email[email.index("@") + 1 :]
+output = "Tve uzivatelske jmeno je {} a domena tve emailove adresy je {}".format(user, domain)
+
+#Toto jsou informace o tvem emailu.
+print(output)
